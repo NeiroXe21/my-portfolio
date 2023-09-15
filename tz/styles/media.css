@@ -1,0 +1,68 @@
+@media(max-width: 640px) {
+	.header_menu{
+	display: flex;
+	justify-content: space-around;
+}	
+body{
+	margin: auto;
+	width: 640px;
+}
+.container{
+	max-width: 560px;
+}
+ 
+ .nav ul {
+		display: none;
+	}
+
+.header_section_content>h1{
+	font-size: 30px;
+	line-height: 47.8px;
+}
+
+.header_section{
+
+	margin: auto;
+
+	width: 700px;
+	background-image:url(img/Rectangl.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.forms{
+	width: 618px;
+	height: 454px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.second-section{
+	height: 1042px;
+}
+
+.second_section_wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+}
+
+.russia_png{
+
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    
+}
+
+
+}
+
